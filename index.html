@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>COVIDnow</title>
+    <link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet" />
+    <link href="./covid2.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap" rel="stylesheet"> 
+
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+   <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">-->
+
+
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">ℂ𝕆𝕍𝕀𝔻𝕟𝕠𝕨</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">COVID-19 STATS <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">DEVELOPER INFO</a>
+        </li>
+        </ul>
+        </nav>
+    
+    <div class="container-fluid">
+    
+    <br><center>
+      <p id="desc">GET TO KNOW THE COVID-19 STATISTICS COUNTRYWISE(SUPPORTS ONLY ASIA NOW).<br> #StayHome<br> #StaySafe<br>
+        </p>
+    <select id="states">
+     
+     
+      <!--<option value="south-africa">SOUTH AFRICA</option>-->
+     
+      <option value="afghanistan">AFGHANISTAN</option>
+      <option value="bahrain">BAHRAIN</option>
+      <option value="bangladesh">BANGLADESH</option>
+      <option value="bhutan">BHUTAN</option>
+      <option value="cambodia">CAMBODIA</option>
+      <option value="india">INDIA</option>
+      <option value="indonesia">INDONESIA</option>
+      <option value="iran">IRAN</option>
+      <option value="iraq">IRAQ</option>
+      <option value="israel">ISRAEL</option>
+      <option value="japan">JAPAN</option>
+      <option value="jordan">JORDAN</option>
+      <option value="kuwait">KUWAIT</option>
+      <option value="kazakhstan">KAZAKHSTAN</option>
+      <option value="laos">LAOS</option>
+      <option value="malaysia">MALAYSIA</option>
+      <option value="maldives">MALDIVES</option>
+      <option value="mongolia">MONGOLIA</option>
+      <option value="myanmar">MYANMMAR</option>
+      <option value="nepal">NEPAL</option>
+     
+      <option value="oman">OMAN</option>
+      <option value="pakistan">PAKISTAN</option>
+      <option value="philippines">PHILIPPINES</option>
+      <option value="qatar">QATAR</option>
+      <option value="russia">RUSSIA</option>
+      <option value="saudi-arabia">SAUDI ARABIA</option>
+      <option value="singapore">SINGAPORE</option>
+      <option value="south-korea">SOUTH KOREA</option>
+      <option value="sri-lanka">SRILANKA</option>
+      <option value="syria">SYRIA</option>
+      <option value="taiwan">TAIWAN</option>
+      <option value="thailand">THAILAND</option>
+      <option value="turkey">TURKEY</option>
+      <option value="vietnam">VIETNAM</option>
+      <option value="yemen">YEMEN</option>
+
+    </select>
+    <input type="button" id="btn" value="ADD TO WATCH" onclick="jser()">
+    <div id="root"></div>
+    <br>
+    <br>
+    <table id="maintab">
+      <tr>
+        <td><b>COUNTRY</b></td>
+        <td><b>CONFIRMED CASES</b></td>
+        <td><b>DECEASED CASES</b></td>
+        <td><b>RECOVERED CASES</b></td>
+      </tr>
+    </table>
+    <script src="./covid2.js"></script>
+    </center>
+    </div>
+    <!--<div class="alert alert-primary" role="alert">
+      This site is best viewed at resolutions 480 x 680 and above.
+    </div><br><br><br><br><br><br>
+    <div class="oner" valign="bottom">
+      This site is best viewed at resolutions 480 x 680 and above.
+    </div>-->
+  </body>
+</html>
